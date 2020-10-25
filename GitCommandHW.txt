@@ -1,0 +1,32 @@
+Home Work By :- Adnan Matin.
+--------------------------------------
+	git ststus --> This command is used the to keep monitoring the states of both the working directory and the repository. The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. Mostly, it is used to display the state between Git Add and Git commit command.
+
+	git add --a --> This command adds more than one files in Git, but we have to run the add command repeatedly. Git facilitates us with -a unique option of the add command by which we can add all the available files at once. To add all the files from the repository, run the add command with -A option. It tells Git that we want to include updates  in the entire working tree  files in the next commit.
+
+	git commit -m "short massage" --> It is used to record the changes in the repository. It is the next command after the "git add". Every commit contains the index data and the commit message. Create a new commit containing the current contents of the index and the given log message describing the changes as we entered.
+
+	git pull oragin master  -->  The term pull is used to receive data from GitHub. It fetches and merges changes from the remote server to your working directory. The git pull command is used to pull a repository. Moreover, it will  pull changes from the origin remote, master branch and merge them to the local checked-out branch.
+
+	git push oragin master  --> Git push origin master is a special command-line utility that specifies the remote branch and directory. When you have multiple branches and directory, then this command assists you in determining your main branch and repository. It will take the local commit that you made and upload it to the remote server on github for other people to collaborate. In simple words git push command updates the remote repository with local commits. The origin represents a remote name where the user wants to push the changes. git push command push commits made on a local branch to a remote repository.
+
+	git clone url  --> The git clone url is a command-line utility which is used to make a local copy of a remote repository. It accesses the repository through a remote URL. It is the act of making a copy of any target repository. The target repository can be remote or local. You can clone your repository from the remote repository to create a local copy on your system. Also, you can sync between the two locations.
+
+	git init  --> The git init command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project. It creates an empty Git repository or reinitialize an existing one. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+
+	git remote -v  --> The git remote command lets you create, view, and delete connections to other repositories. Using the "-v" option, you will also see the remote's URLs in listings.
+
+	git branch --> In git the "branch" command helps you create, delete, and list branches. It's the go-to command when it comes to managing any aspect of your branches no matter if in your local repository or on your remotes.
+
+	git checkout branchName  --> You can demonstrate how to view a list of available branches by executing the git branch command and switch to a specified branch.
+
+	git merge brabch  --> This command is used to merge the specified branch & history into the current branch.
+
+Hurgry for More:
+	git log  --> Git log is the most useful command for Git. Every time you need to check the history, you have to use the git log command. The basic git log command will display the most recent commits and the status of the head. 
+In other words it "Git log" is a utility tool to review and read a history of everything that happens to a repository. Multiple options can be used with a git log to make history more specific. Generally, the git log is a record of commits.
+
+	git revert  --> In Git, the term revert is used to revert some changes. The git revert command is used to apply revert operation. It is an undo type command. Moreover, we can say that git revert records some new changes that are just opposite to previously made commits. 
+
+	git reset  --> The term reset stands for undoing changes. The git reset command is used to reset the changes. The git reset command has three core forms of ocation. These forms are as follows: Soft, Mixed, Hard.
+	
